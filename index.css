@@ -125,6 +125,9 @@ section{
     grid-template-columns:repeat(auto-fit,minmax(260px,auto));
     gap: 2rem;
 }
+.row{
+    position:relative;
+}
 .row img{
     width: 100%;
     height: auto;
@@ -133,7 +136,7 @@ section{
     transform: scale(0.9);
 }
 .product-text h5{
-    
+    position:absolute;
     top: 13px;
     left: 13px;
     color: white;
